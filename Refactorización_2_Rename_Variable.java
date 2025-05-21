@@ -1,4 +1,4 @@
-/*public class Refactorización {
+/*public class Refactorización_2_Rename_Variable {
 
 private void totalMonedas() {
     int o = 10;
