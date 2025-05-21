@@ -1,5 +1,5 @@
 
-/*public class Refactorización_1_Extract_Method {
+/*public class Refactorización {
 
 private void totalMonedas() {
     int oro = 10;
