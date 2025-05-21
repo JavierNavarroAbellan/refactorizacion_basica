@@ -29,7 +29,7 @@ private void totalMonedas() {
 
 public class Refactorización_3_Replace_Magic_Number_with_Symbolic_Constant {
 
-private void totalMonedas() {
+public void totalMonedas() {
     int oro = 10;
     int plata = 3;
     int bronce = 7;

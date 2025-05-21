@@ -24,7 +24,7 @@ private void totalMonedas() {
 
 public class Refactorización_2_Rename_Variable {
 
-private void totalMonedas() {
+public void totalMonedas() {
     int monedasOro = 10;
     int monedasPlata = 3;
     int monedasBronce = 7;

@@ -1,23 +1,36 @@
-/*public class Refactorización {
+/*public class Refactorización_4_Introduce_Explaining_Variable {
 
-private void totalMonedas() {
-    int oro = 10;
-    int plata = 3;
-    int bronce = 7;
-    int total = oro + plata + bronce;
+    public void Monedas() {
+        int oro = 10;
+        int plata = 3;
+        int bronce = 7;
 
-    if (total > 0){
-    
-    System.out.println("Monedas de oro: " + oro);
-    
-    System.out.println("Monedas de plata: " + plata);
-    
-    System.out.println("Monedas de bronce: " + bronce);
-    
-    System.out.println("Monedas totales: " + total);
+        double total = (oro * 100.0) + (plata * 50.0) + (bronce * 10.0);
+        double descuento = 0.1;
+        double totalConDescuento = total * (1 - descuento);
 
-    }else{
-        System.out.println("No tienes dinero");
+        System.out.println("Total sin descuento: " + total);
+        System.out.println("Total con descuento: " + totalConDescuento);
+    }
+}*/
+
+public class Refactorización_4_Introduce_Explaining_Variable {
+
+    public void Monedas() {
+        int cantidadOro = 10;
+        int cantidadPlata = 3;
+        int cantidadBronce = 7;
+
+        double valorOro = cantidadOro * 100.0;
+        double valorPlata = cantidadPlata * 50.0;
+        double valorBronce = cantidadBronce * 10.0;
+
+        double valorTotal = valorOro + valorPlata + valorBronce;
+
+        double descuento = 0.1;
+        double valorTotalConDescuento = valorTotal * (1 - descuento);
+
+        System.out.println("Total sin descuento: " + valorTotal);
+        System.out.println("Total con descuento: " + valorTotalConDescuento);
     }
 }
-}*/
