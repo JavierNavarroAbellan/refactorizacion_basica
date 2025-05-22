@@ -11,7 +11,8 @@ public class CalculadoraFactura {
         double porcentaje = 100;
 
         double p = precioBase - (precioBase * descuento / porcentaje);
-        double total = p + (p * porcentajeImpuestoFijo / porcentaje);
+        double calculo = (p * porcentajeImpuestoFijo / porcentaje);
+        double total = p + (calculo);
 
         System.out.println("El precio base es: " + precioBase);
         System.out.println("Descuento aplicado: " + descuento + "%");
