@@ -8,9 +8,10 @@ public class CalculadoraFactura {
 
     public static void calcular(double precioBase, double descuento) {
         double porcentajeImpuestoFijo = 21.0; // porcentaje de impuesto fijo
+        double porcentaje = 100;
 
-        double p = precioBase - (precioBase * descuento / 100);
-        double total = p + (p * porcentajeImpuestoFijo / 100);
+        double p = precioBase - (precioBase * descuento / porcentaje);
+        double total = p + (p * porcentajeImpuestoFijo / porcentaje);
 
         System.out.println("El precio base es: " + precioBase);
         System.out.println("Descuento aplicado: " + descuento + "%");
